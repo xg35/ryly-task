@@ -1,4 +1,4 @@
-CREATE TABLE service_tasks (
+CREATE TABLE public.service_tasks (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   request_type TEXT CHECK (request_type IN ('ROOM_SERVICE', 'DINING_BOOKING', 'SPA_BOOKING')),
   guest_phone_number TEXT NOT NULL,

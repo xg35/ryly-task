@@ -1,4 +1,4 @@
-CREATE TABLE user_location (
+CREATE TABLE public.user_location (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id TEXT NOT NULL,
   user_name TEXT,
