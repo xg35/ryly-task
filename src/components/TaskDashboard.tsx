@@ -309,7 +309,7 @@ const TaskDashboard = () => {
             onCheckedChange={(checked) => setShowCompleted(checked)}
             aria-label="Show completed tasks"
           />
-          <Label htmlFor="show-completed">Show Completed Tasks</Label>
+          <Label htmlFor="show-completed">Show Completed Tasks (TEST)</Label>
         </div>
 
         <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
